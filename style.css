@@ -1,0 +1,407 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* happy new year styles */
+
+.happy-new-year{
+    background-image: url('images/Banner\ Image.png');
+    background-repeat: repeat;
+    width: 1320px;
+    height: 600px;
+    align-items: center;
+    margin: 20px 50px;
+    
+    
+}
+
+.banner-big, .banner-title-small{
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.banner-title {
+    padding-top: 233px;
+    border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding-bottom: 177px;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.banner-title h4{
+    font-size: 23px;
+    font-weight: 100;
+    font-family: 'Merriweather', serif;
+}
+
+.banner-big{
+    font-size: 60px;
+}
+
+
+/* discount styles */
+
+.discount{
+    align-items:center;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 48px;
+
+}
+
+.discount h2{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 48px;
+
+
+}
+
+.discount p{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.discount h3{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 48px;
+}
+
+/* 2nd banner section */
+
+.sec-banner{
+    background-image: url('images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin: 10px 50px;
+    
+
+}
+
+.banner-back{
+    background: linear-gradient(90deg, #070211 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 16px;
+    color: aliceblue;
+    display: flex;
+    padding: 65px 5px;
+    
+    
+}
+.sec-banner-content{
+    margin: 100px 300px 50px 126px;
+}
+
+.sec-banner-content h2{
+    font-size: 64px;
+    font-family: 'Merriweather', serif;
+    line-height: 88px;
+    margin-bottom: 20px;
+
+    
+}
+
+.sec-banner-content p{
+    margin: 20px 0px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.sec-banner-content button, .join{
+    background-color: #F00;
+    color: #FFF;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.banner-pic{
+    margin-right: 70px;
+}
+
+
+
+.time-area{
+    text-align: center;
+    padding: 120px 350px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+    border-radius: 16px;
+    
+}
+
+.time-area span{
+    color: #F00;
+}
+
+.time-area h3{
+    margin: 15px 0px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.bonus-work{
+    padding: 120px 50px;
+    
+
+}
+
+.comming-soon{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.comming-soon .img-are img{
+    border: 20px solid #F00;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0px 50px 0px -50px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.text{
+    margin: 0px 100px 0px 0px;
+}
+.text h6{
+    color: #F00;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+.text h2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin: 15px 0px;
+}
+
+.text p{
+    margin-left: 5px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+
+}
+
+.new-yr{
+    margin: 0px -20px 0px 20px;
+
+}
+
+.new-yr h3{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.new-yr p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+display: inline;
+margin: 70px 0px;
+}
+
+/* portfolio styles */
+
+.portfolio{
+    margin: 120px 50px;
+    align-content: center;
+    align-items: center;
+}
+
+.portfolio-title{
+    color: #F00;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 16px;
+}
+
+.portfolio-header{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 22px;
+}
+
+.portfolio-desc{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 50px;
+
+}
+
+
+
+.portfolio-img img{
+    margin-right: 10px;
+    margin-bottom: 18px;
+
+}
+
+
+
+
+/* newletter styles */
+
+.newsletter{
+    width: 1320px;
+height: 616px;
+flex-shrink: 0;
+margin: 100px 50px;
+background-color: antiquewhite;
+border-radius: 16px;
+}
+
+#email-icon{
+    padding: 80px 585px 20px;
+}
+
+.newsletter-header{
+    text-align: center;
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.news-desc{
+    padding: 20px 100px;
+    text-align: center;
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 160% */
+}
+
+.iput-form{
+    text-align: center;
+    
+}
+
+.email-st{
+    padding: 20px 280px 20px 20px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+}
+.sub-btn{
+    
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding:20px 50px 20px 50px ;
+    margin-left: -10px;
+    color: #FFF;
+    border: none;
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #070211;
+    align-content: space-between;
+    font-family: 'Inter', sans-serif;
+    
+
+}
+
+
+.footer-contact{
+    
+    margin-left: 700px;
+    
+    margin-top: ;
+    color: #FFF;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+
+.footer-contact img{
+    padding-right: 10px;
+    
+}
+
+.social-icon{
+    align-content:space-around;
+    background-color: #070211;
+    border-top: 1px solid rgb(44, 43, 43);
+    border-bottom: 1px solid rgb(44, 43, 43);;
+    margin: 15px 0px;
+    padding: 20px 0px;
+    
+    text-align: center;
+}
+
+
+
+footer{
+    background-color: #070211;
+    padding: 100px 120px;
+}
+
+#unsubs{
+    margin-left: 100px;
+}
